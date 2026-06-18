@@ -20,9 +20,9 @@ Dengan mengintegrasikan pemrosesan *Natural Language* (LLM) untuk memahami konte
 
 Terdapat 6 repositori di dalam organisasi GitHub ini yang mendokumentasikan keseluruhan arsitektur GamU. Semuanya telah didokumentasikan dengan baik agar mudah dipahami:
 
-1. [GamU-WebApp](#) 
-2. [machine-learning](#)
-3. [backend-service](#) 
-4. [ml-inference-service](#) 
-5. [backend-legacy](#) 
-6. [infrastructure](#) 
+1. [GamU-WebApp](https://github.com/GamU-Labs/GamU-WebApp) 
+2. [machine-learning](https://github.com/GamU-Labs/machine-learning)
+3. [backend-service](https://github.com/GamU-Labs/backend-service) 
+4. [ml-inference-service](https://github.com/GamU-Labs/ml-inference-service) 
+5. [backend-legacy](https://github.com/GamU-Labs/backend-legacy) 
+6. [infrastructure](https://github.com/GamU-Labs/infrastructure) 
