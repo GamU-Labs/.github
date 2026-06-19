@@ -1,4 +1,4 @@
-# GamU: Smart Game Recommendation System
+# GamU
 
 ## Tim Kami
 
