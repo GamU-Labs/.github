@@ -12,7 +12,7 @@
 
 ## Latar Belakang
 
-Tim kami mengembangkan **GamU**, sebuah sistem rekomendasi *game* yang dirancang untuk mengatasi masalah pencarian *game* yang kaku di *platform* konvensional. Berbeda dengan sistem pencarian biasa yang sangat bergantung pada *filter tag* manual dan rentan terhadap bias popularitas (*Collaborative Filtering*), GamU memungkinkan pengguna untuk mencari *game* menggunakan *prompt* bahasa natural.
+Tim kami mengembangkan **GamU**, sebuah sistem rekomendasi *game* yang dirancang untuk mengatasi masalah pencarian *game* yang kaku di *platform* konvensional. Berbeda dengan sistem pencarian biasa yang sangat bergantung pada *filter tag* manual dan rentan terhadap bias popularitas (*Collaborative Filtering*), GamU memungkinkan pengguna untuk mencari *game* menggunakan *prompt* judul game.
 
 Dengan mengintegrasikan pemrosesan *Natural Language* (LLM) untuk memahami konteks dan niat pengguna, serta algoritma *Content-Based Filtering* (TF-IDF & Cosine Similarity) terhadap lebih dari 40.000 *dataset* *game* Steam, GamU dapat memberikan rekomendasi yang sangat personal, akurat, dan bebas halusinasi. Aplikasi ini akan membantu pengguna menemukan *hidden gems* murni berdasarkan kecocokan cerita dan *vibe* yang mereka inginkan.
 
