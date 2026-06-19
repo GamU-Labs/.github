@@ -16,6 +16,10 @@ Tim kami mengembangkan **GamU**, sebuah *smart discovery tool* dan sistem rekome
 
 Dengan mengintegrasikan pemrosesan *Natural Language* (LLM) untuk memahami konteks dan niat pengguna, serta algoritma *Content-Based Filtering* (TF-IDF & Cosine Similarity) terhadap lebih dari 40.000 *dataset* *game* Steam, GamU dapat memberikan rekomendasi yang sangat personal, akurat, dan bebas halusinasi. Aplikasi ini akan membantu pengguna menemukan *hidden gems* murni berdasarkan kecocokan cerita dan *vibe* yang mereka inginkan.
 
+## Infrastruktur
+
+<img width="916" height="611" alt="cloud drawio" src="https://github.com/user-attachments/assets/86eb1b3a-c2d6-47cc-bd1d-a8e7f78bbd2f" />
+
 ## Repositori
 
 Terdapat 6 repositori di dalam organisasi GitHub ini yang mendokumentasikan keseluruhan arsitektur GamU. Semuanya telah didokumentasikan dengan baik agar mudah dipahami:
@@ -24,5 +28,4 @@ Terdapat 6 repositori di dalam organisasi GitHub ini yang mendokumentasikan kese
 2. [machine-learning](https://github.com/GamU-Labs/machine-learning)
 3. [backend-service](https://github.com/GamU-Labs/backend-service) 
 4. [ml-inference-service](https://github.com/GamU-Labs/ml-inference-service) 
-5. [backend-legacy](https://github.com/GamU-Labs/backend-legacy) 
-6. [infrastructure](https://github.com/GamU-Labs/infrastructure) 
+5. [infrastructure](https://github.com/GamU-Labs/infrastructure) 
