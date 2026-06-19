@@ -17,16 +17,15 @@ Dengan *Content-Based Filtering* (TF-IDF & Cosine Similarity) terhadap lebih dar
 
 ### Key Features
 
-| # | Fitur | Deskripsi |
+| No | Fitur | Deskripsi |
 | :--- | :--- | :--- |
-| 1 | **Natural Language Game Search** | Pengguna menulis preferensi dalam bahasa biasa (e.g. *"game santai buat dimainkan bareng teman"*), sistem memahami konteks & niat pengguna via LLM |
-| 2 | **Title-Based Similarity Lookup** | Pencarian berdasarkan judul *game* spesifik, menggunakan *precomputed similarity data* dari 40.000+ *dataset* Steam |
-| 3 | **LLM-Powered Structured Explanations** | Setiap rekomendasi disertai penjelasan terstruktur (intro, highlights, conclusion) yang di-*generate* oleh Gemini; OpenRouter sebagai *fallback* |
-| 4 | **TF-IDF Content-Based Filtering** | Algoritma TF-IDF & Cosine Similarity untuk menemukan *game* yang mirip secara cerita & *vibe*, menghindari *bias popularitas* |
-| 5 | **Steam Cover Images** | Header *image* *game* diambil dari Steam Store API dan di-*cache* di SQLite untuk mengurangi *API call* berulang |
-| 6 | **Prompt Injection Defense** | *Input sanitization* yang mem-strip *structural attack* (control chars, injection patterns) dan memperkuat *prompt delimiter* |
-| 7 | **Dark Theme Gaming UI** | Antarmuka dark-first dengan gradient, glow effect, dan typography gaming (Chakra Petch + Russo One) di atas shadcn/ui & Radix UI |
-| 8 | **Responsive & SSR** | Frontend berbasis TanStack Start + Nitro (React SSR), responsif di semua *device* |
+| 1 | **Title-Based Similarity Lookup** | Pencarian berdasarkan judul *game* spesifik, menggunakan *precomputed similarity data* dari 40.000+ *dataset* Steam |
+| 2 | **LLM-Powered Structured Explanations** | Setiap rekomendasi disertai penjelasan terstruktur (intro, highlights, conclusion) yang di-*generate* oleh Gemini; OpenRouter sebagai *fallback* |
+| 3 | **TF-IDF Content-Based Filtering** | Algoritma TF-IDF & Cosine Similarity untuk menemukan *game* yang mirip secara cerita & *vibe*, menghindari *bias popularitas* |
+| 4 | **Steam Cover Images** | Header *image* *game* diambil dari Steam Store API dan di-*cache* di SQLite untuk mengurangi *API call* berulang |
+| 5 | **Prompt Injection Defense** | *Input sanitization* yang mem-strip *structural attack* (control chars, injection patterns) dan memperkuat *prompt delimiter* |
+| 6 | **Dark Theme Gaming UI** | Antarmuka dark-first dengan gradient, glow effect, dan typography gaming (Chakra Petch + Russo One) di atas shadcn/ui & Radix UI |
+| 7 | **Responsive & SSR** | Frontend berbasis TanStack Start + Nitro (React SSR), responsif di semua *device* |
 
 ### Tech Stack
 
@@ -34,7 +33,7 @@ Dengan *Content-Based Filtering* (TF-IDF & Cosine Similarity) terhadap lebih dar
 | :--- | :--- |
 | **Frontend** | React 19 · TanStack Start (SSR + Nitro) · TanStack Query · shadcn/ui · TailwindCSS v4 · Bun |
 | **Backend** | Effect.ts · @effect/platform · @effect/ai-google (Gemini) · @effect/ai-openai (OpenRouter fallback) · Bun |
-| **ML Inference** | Flask · Gunicorn · TF-IDF + Cosine Similarity · Python 3.12 |
+| **ML Inference** | Flask · TF-IDF + Cosine Similarity · Python 3.12 |
 | **Data** | SQLite (Steam image cache) · JSON (game data + similarity lookup) · TF-IDF pickle files |
 | **Infrastructure** | DigitalOcean · Docker Compose · Nginx + Let's Encrypt · OpenTofu (terraform) · GitHub Actions CI/CD · GHCR · Cloudflare DNS |
 
