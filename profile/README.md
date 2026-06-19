@@ -4,11 +4,10 @@
 
 | Nama | Cohort ID |
 | :--- | :--- |
-| DAFFA NUR FAKHRI | APC115D6Y0367 |
-| NURRIZKY ARUM JATMIKO | APC283D6Y0038 |
-| HILDAN KUSTO UTOMO | APC702D6Y0009 |
-| KARIMA ULYA HERMAWAN | APC222D6X0156 |
-| FIRDA AZZAHRA | APC222D6X0154 |
+| Hildan Kusto Utomo | APC702D6Y0009 |
+| Nurrizky Arum Jatmiko | APC283D6Y0038 |
+| Firda Azzahra | APC222D6X0154 |
+| Karima Ulya Hermawan | APC222D6X0156 |
 
 ## Latar Belakang
 
