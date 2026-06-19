@@ -4,6 +4,7 @@ PJK-GM083 | AI for Smart Recommendation Systems
 
 | Nama | Cohort ID |
 | :--- | :--- |
+| Daffa Nur Fakhri | APC115D6Y0367 |
 | Hildan Kusto Utomo | APC702D6Y0009 |
 | Nurrizky Arum Jatmiko | APC283D6Y0038 |
 | Firda Azzahra | APC222D6X0154 |
